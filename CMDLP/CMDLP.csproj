@@ -12,13 +12,11 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <Description>Configurable .NET Command Line Argument Parser</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <UserSecretsId>617c9f99-a73d-4116-861d-17ce47bddca2</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
   </ItemGroup>
 
 </Project>
