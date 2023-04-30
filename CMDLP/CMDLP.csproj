@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>CMD-Parser</Title>
+    <PackageTags>Arguments;Command Line;Parser;Flags;</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <Authors>Sudo-NGS</Authors>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Description>Configurable .NET Command Line Argument Parser</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
